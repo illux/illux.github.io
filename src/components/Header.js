@@ -3,32 +3,17 @@ import { Link } from 'react-router';
 
 class Header extends React.Component {
     render() {
-        const loginButton = (
-            <li><a><i className="material-icons">vpn_key</i></a></li>
-            );
-        
-        const logoutButton = (
-            <li><a><i className="material-icons">lock_open</i></a></li>
-            );
-        
         return (
             <nav>
                 <div className="nav-wrapper red darken-3">
-                    <Link to="/home" className="brand-logo">MONSTER EATING</Link>
-                    <ul>
-                        <li><a><i className="material-icons">search</i></a></li>
+                    <Link to="/home" className="brand-logo left">일러스티</Link>
+                    <ul className="right">
                         <li><Link to="/geusan">geusan</Link></li>
                         <li><Link to="/gamrom">gamrom</Link></li>
                         <li><Link to="/jiyun">jiyun</Link></li>
                         <li><Link to="/jeong">jeong</Link></li>
                         <li><Link to="/chayeoi">chayeoi</Link></li>
                     </ul>
-
-                    <div className="right">
-                        <ul>
-                            {this.props.isLoggedIn ? logoutButton: loginButton}
-                        </ul>
-                    </div>
                 </div>
             </nav>
         );
