@@ -13,7 +13,14 @@ class Gamrom extends React.Component {
     render() {
         return (
             <div>
-                <p>감롬의 방입니다. 어서오세요</p>
+                <Image 
+                    src="public/images/gamrom/001.png"
+                    title="감롬이"
+                    content="감롬의 시그니쳐 캐릭터"
+                    author="감롬"
+                    authorImg="public/images/gamrom/001.png"
+                    allMode={true}
+                />
             </div>
         )
     }
