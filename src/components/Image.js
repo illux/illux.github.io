@@ -13,6 +13,7 @@ class Image extends React.Component {
                 <div className="card-action">
                     <div className="chip">
                         <img src={this.props.authorImg} alt={this.props.author} />
+                        {this.props.author}
                     </div>
                 </div>
             )
@@ -22,7 +23,7 @@ class Image extends React.Component {
                 <div className="card hoverable">
                     <div className="card-image">
                         <img src={this.props.src} />
-                        <span className="card-title gray-text">{this.props.title}</span>
+                        <span className="card-title grey-text text-grey-darken-4">{this.props.title}</span>
                     </div>
                     <div className="card-content">
                         <p>{this.props.content}</p>
