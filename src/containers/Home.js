@@ -1,5 +1,5 @@
 import React from 'react';
-import { Image } from 'containers';
+import { Image } from 'components';
 
 class Home extends React.Component {
     
