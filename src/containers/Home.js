@@ -38,6 +38,22 @@ class Home extends React.Component {
                     authorImg="public/images/chayeoi/001.png"
                     allMode={true}
                 />
+                <Image 
+                    src="public/images/gamrom/001.png"
+                    title="감롬이"
+                    content="감롬의 시그니쳐 캐릭터"
+                    author="감롬"
+                    authorImg="public/images/gamrom/001.png"
+                    allMode={true}
+                />
+                <Image 
+                    src="public/images/geusan/002.png"
+                    title="나봉군"
+                    content="한라봉을 먹으며 만든 캐릭터"
+                    author="규산"
+                    authorImg="public/images/geusan/001.png"
+                    allMode={true}
+                />
             </div>
         )
     }
