@@ -13,7 +13,7 @@ class Home extends React.Component {
     render() {
         return (
             <div>
-                <p>어서오세요</p>
+                <p> 전체보기 입니다. 어서오세요</p>
             </div>
         )
     }

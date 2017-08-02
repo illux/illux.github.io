@@ -13,7 +13,7 @@ class Jeong extends React.Component {
     render() {
         return (
             <div>
-                <p>어서오세요</p>
+                <p>정연의 방입니다. 어서오세요</p>
             </div>
         )
     }

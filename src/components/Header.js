@@ -14,15 +14,14 @@ class Header extends React.Component {
         return (
             <nav>
                 <div className="nav-wrapper red darken-3">
-                    <Link to="/home" className="brand-logo center">MONSTER EATING</Link>
-
+                    <Link to="/home" className="brand-logo">MONSTER EATING</Link>
                     <ul>
                         <li><a><i className="material-icons">search</i></a></li>
-                        <Link to="/geusan">geusan</Link>
-                        <Link to="/gamrom">gamrom</Link>
-                        <Link to="/jiyun">jiyun</Link>
-                        <Link to="/jeong">jeong</Link>
-                        <Link to="/chayeoi">chayeoi</Link>
+                        <li><Link to="/geusan">geusan</Link></li>
+                        <li><Link to="/gamrom">gamrom</Link></li>
+                        <li><Link to="/jiyun">jiyun</Link></li>
+                        <li><Link to="/jeong">jeong</Link></li>
+                        <li><Link to="/chayeoi">chayeoi</Link></li>
                     </ul>
 
                     <div className="right">
