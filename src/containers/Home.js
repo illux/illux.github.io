@@ -20,6 +20,7 @@ class Home extends React.Component {
                     content="토마토 사진에 영감을 얻어 15분만에 완성"
                     author="규산"
                     authorImg="public/images/geusan/tomato.png"
+                    allMode={true}
                 />
             </div>
         )

@@ -18,8 +18,8 @@ class Image extends React.Component {
             )
         
         return (
-            <div className="col s12 m4 l3 hoverable">
-                <div className="card">
+            <div className="col s12 m4 l3">
+                <div className="card hoverable">
                     <div className="card-image">
                         <img src={this.props.src} />
                         <span className="card-title gray-text">{this.props.title}</span>
