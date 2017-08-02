@@ -1,4 +1,5 @@
 import React from 'react';
+import { Image } from 'components';
 
 class Gamrom extends React.Component {
     

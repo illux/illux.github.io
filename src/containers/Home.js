@@ -32,8 +32,8 @@ class Home extends React.Component {
                 />
                 <Image 
                     src="public/images/chayeoi/002.png"
-                    title="마릴리"
-                    content="킹왕짱 귀요미 마릴린을 그렸습니다."
+                    title="루리리"
+                    content="킹왕짱 귀요미 루리리를 그렸습니다."
                     author="찬연"
                     authorImg="public/images/chayeoi/001.png"
                     allMode={true}
