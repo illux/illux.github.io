@@ -22,7 +22,7 @@ class Image extends React.Component {
                 <div className="card">
                     <div className="card-image">
                         <img src={this.props.src} />
-                        <span className="card-title">{this.props.title}</span>
+                        <span className="card-title gray-text">{this.props.title}</span>
                     </div>
                     <div className="card-content">
                         <p>{this.props.content}</p>
