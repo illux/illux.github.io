@@ -13,7 +13,7 @@ class Gamrom extends React.Component {
     
     render() {
         return (
-            <div>
+            <div className="row">
                 <Image 
                     src="public/images/gamrom/001.png"
                     title="감롬이"

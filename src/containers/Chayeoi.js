@@ -13,7 +13,7 @@ class Chayeoi extends React.Component {
     
     render() {
         return (
-            <div>
+            <div className="row">
                 <Image 
                     src="public/images/chayeoi/001.png"
                     title="김찬연 캐릭터"

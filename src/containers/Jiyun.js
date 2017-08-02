@@ -13,7 +13,7 @@ class Jiyun extends React.Component {
     
     render() {
         return (
-            <div>
+            <div className="row">
                 <p>지윤의 방입니다. 어서오세요</p>
             </div>
         )

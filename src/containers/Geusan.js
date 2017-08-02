@@ -13,7 +13,7 @@ class Geusan extends React.Component {
     
     render() {
         return (
-            <div>
+            <div className="row">
                 <Image 
                     src="public/images/geusan/001.png"
                     title="황당마토"
