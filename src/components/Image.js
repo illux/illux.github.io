@@ -23,9 +23,9 @@ class Image extends React.Component {
                 <div className="card hoverable">
                     <div className="card-image">
                         <img src={this.props.src} />
-                        <span className="card-title grey-text text-grey-darken-4">{this.props.title}</span>
                     </div>
                     <div className="card-content">
+                        <span className="card-title grey-text text-grey-darken-4">{this.props.title}</span>
                         <p>{this.props.content}</p>
                     </div>
                     { this.props.allMode ? author : "" }
