@@ -6,4 +6,4 @@ webpack.dev.config.js
 src/
 build/
 node_modules/
-
+server/
