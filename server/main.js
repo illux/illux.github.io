@@ -8,14 +8,12 @@ const app = express(); // express app 인스턴스
 const port = 8080;
 const devPort = 8082;
 
-app.use('/', express.static(path.join(__dirname, './../')));
-
-// static file 위치 / 으로 고정
-app.use(express.static('/'));
+// static file 위치 public 으로 고정
+app.use(express.static('public'));
 
 // 기본 라우팅 위치 public/index.html
 app.get('*', (req,res) => {
-    res.sendFile(path.resolve(__dirname, './../index.html'));
+    res.sendFile(path.resolve(__dirname, './../public/index.html'));
 });
 
 app.listen(port, () => {
