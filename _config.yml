@@ -1,0 +1,12 @@
+#
+# This file contains configuration flags to customize your site
+#
+
+# Name of your site (displayed in the header)
+name: ILLUX일러스트스터디
+
+# Short bio or description (displayed in the header)
+description: 동국대학교 일러스트 스터디 ILLUX 입니다. 언제나 재밌고 신나는 일만 할 것입니다.
+
+# URL of your avatar or profile pic (you could use your GitHub profile pic)
+avatar: https://illux.github.io/public/images/geusan/001.png
