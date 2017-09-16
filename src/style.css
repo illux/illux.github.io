@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'BM HANNA';
+    src: url(/public/assets/fonts/BMHANNA.eot);
+    src: local(※), url(/public/assets/fonts/BMHANNA.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'NOTO SANS';
+    src: url(/public/assets/fonts/NotoSans-Regular.eot);
+    src: local(※), url(/public/assets/fonts/NotoSans-Regular.woff) format('woff');
+    font-weight: 700;
+}
+
+.notosans > * {
+    font-family: 'NOTO SANS', 'Roboto', sans-serif !important; 
+}
+
+.hanna > * {
+    font-family: 'BM HANNA', '배달의민족 한나', 'Roboto', sans-serif !important;
+}
+body {
+    background-color: #FFFFFF;
+}
+
+input{
+    box-shadow: none !important;
+}
